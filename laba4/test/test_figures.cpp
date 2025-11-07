@@ -3,8 +3,6 @@
 #include "triangle.h"
 #include "square.h"
 
-# Тесты фигур
-
 TEST(OctagonTest, Construction) {
     Octagon<int> oct(0, 0, 5);
     EXPECT_EQ(oct.geometric_center(), Point<int>(0, 0));
